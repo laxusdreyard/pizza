@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Pizza1:</strong>
+  <%= @boletum.pizza1 %>
+</p>
+
+<p>
+  <strong>Ingrediente:</strong>
+  <%= @boletum.ingrediente %>
+</p>
+
+<p>
+  <strong>Usuario:</strong>
+  <%= @boletum.usuario %>
+</p>
+
+<%= link_to 'Edit', edit_boletum_path(@boletum) %> |
+<%= link_to 'Back', boleta_path %>
